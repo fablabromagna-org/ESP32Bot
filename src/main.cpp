@@ -22,11 +22,11 @@
 #include <UniversalTelegramBot.h>
 
 // Credenziali WiFi
-char ssid[] = "NuovoBuscone"; 
-char password[] = "Prova1234";
+char ssid[] = ""; 
+char password[] = "";
 
 // Telegram Token da Botfather
-#define BOTtoken "818929907:AAFNa_0Kln-yPs7MPnO-RXZ00AQ6IoKa5pI"
+#define BOTtoken ""
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
